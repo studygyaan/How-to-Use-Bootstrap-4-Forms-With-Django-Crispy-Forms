@@ -1,3 +1,4 @@
+<!-- product.html -->
 {% extends 'base.html' %}
 
 {% load crispy_forms_tags %}
@@ -5,7 +6,15 @@
 {% block content %}
   <form method="post" novalidate>
     {% csrf_token %}
-    {{ form|crispy }}
-    <button type="submit" class="btn btn-success">Save person</button>
+    <div class="row">
+      <div class="col-6">
+        {{ form.name|as_crispy_field }}
+      </div>
+      <div class="col-6">
+        {{ form.price|as_crispy_field }}
+      </div>
+    </div>
+    {{ form.description|as_crispy_field }}
+    <button type="submit" class="btn btn-success">Save Product</button>
   </form>
 {% endblock %}
