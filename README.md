@@ -10,4 +10,6 @@ Integrating Bootstrap Form with Django is very easy and simple. There are lots o
 3. Activate VirtualENV - ubuntu : `source env/bin/activate` || windows : `. .\env\Scripts\activate`
 4. Run requirements.txt - `pip install -r requirements.txt`
 5. Run the Application - `python manage.py runserver`
-6. Go to - http://localhost:8000/product-add/
+
+Product add url - http://localhost:8000/product-add/
+Product update url - http://localhost:8000/product-update/3
