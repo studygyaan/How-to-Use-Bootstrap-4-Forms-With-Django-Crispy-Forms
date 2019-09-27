@@ -12,4 +12,5 @@ Integrating Bootstrap Form with Django is very easy and simple. There are lots o
 5. Run the Application - `python manage.py runserver`
 
 Product add url - http://localhost:8000/product-add/
+
 Product update url - http://localhost:8000/product-update/3
